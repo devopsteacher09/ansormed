@@ -1,0 +1,188 @@
+ * {
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+ }
+
+ body {
+     padding: 0;
+     margin: 0;
+     font-size: 16px;
+     line-height: 1.5;
+     font-family: "Roboto", "Arial", sans-serif;
+     letter-spacing: 0.5px;
+ }
+ 
+
+ .container {
+     width: 100%;
+     max-width: 1140px;
+     padding-left: 20px;
+     padding-right: 20px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .header-site {
+     background-color: white;
+     padding: 24px;
+     border: 1px solid red;
+ }
+
+ 
+ a {
+     text-decoration: none;
+     
+ }
+
+ a:hover {
+     color: rgba(222, 46, 84, 1);
+ }
+
+ a:active {
+     color: aqua;
+ }
+
+ *:focus {
+     outline: 3px dotted #FF7500;
+     outline-offset: 3px;
+ }
+
+ nav ul li {
+     list-style: none;
+     margin-right: 32px;
+
+ }
+
+ .nav-header {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+
+ }
+
+ .list-hedr {
+     display: flex;
+     align-items: center;
+ }
+
+ .hedr-listlar {
+     display: flex;
+ }
+ .hedr-listlar li a{
+    color: rgba(34, 34, 34, 1);
+ }
+
+ /* main asosiy qisim */
+ .main-site{
+    background: rgba(255, 255, 255, 1);
+ }
+ .container-dotor {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+
+ }
+
+ .section1 {
+     background-color: rgba(14, 180, 193, 1);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .dotor {
+     width: 500px;
+     height: 300px;
+     margin-top: 220px;
+     margin-bottom: 170px;
+
+ }
+
+ .dotor-img {
+     margin-top: 170px;
+     width: 430px;
+     height: 510px;
+
+ }
+
+ .dotorh2 {
+     font-size: 36px;
+     width: 500px;
+     color: aliceblue;
+     margin-bottom: 40px;
+ }
+
+ .dotor-p {
+     margin-bottom: 40px;
+     color: aliceblue;
+ }
+
+ /* tugmalar */
+ .tugma {
+     padding: 12px 24px;
+     border-radius: 8px;
+     background-color: rgba(222, 46, 84, 0.8);
+     color: rgba(255, 255, 255, 1);
+    }
+
+ /* main section2 */
+
+ .site-section2 {
+     width: 860px;
+     padding: 100px;
+ }
+
+ .container-section2 {
+     margin: 0;
+     align-items: center;
+     justify-content: center; 
+ }
+.section-list li {
+     display: flex;
+     list-style: none;
+     margin-bottom: 100px
+ }
+ .container-sec-li{
+    width: 870px;
+ }
+
+ .sectionh2 {
+     font-size: 36px;
+     line-height: 43px;
+     width: 140px;
+     margin-top: 100px;
+     margin-bottom: 100px;
+ }
+ /* footer */
+ .footer-qabul{
+    width: 100%;
+    background-color: rgba(14, 180, 193, 1);
+    color: aliceblue;
+ }
+ .footer-site{
+    padding: 100px;
+ }
+ .telegram{
+    padding: 12px 24px;
+    background: rgba(222, 46, 84, 1);
+    border: 1px solid red;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 1);
+ }
+ .footernav{
+    background-color: rgba(34, 34, 34, 1);
+    padding: 24px;
+ }
+ .footer-qabul{
+    display: block;
+    align-items: center;
+ }
+ .footer_list{
+    display: flex;
+ }
+ .fotericon{
+    color: rgba(255, 255, 255, 1);
+ }
+ 
+
