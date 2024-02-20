@@ -72,6 +72,9 @@
  .hedr-listlar li a{
     color: rgba(34, 34, 34, 1);
  }
+ .hedr-listlar li a:hover{
+    color: rgba(222, 46, 84, 1);
+ }
 
  /* main asosiy qisim */
  .main-site{
