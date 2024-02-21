@@ -134,6 +134,9 @@
      color: rgba(255, 255, 255, 1);
      text-transform: uppercase;
     }
+    .tugma:hover{
+        color: aqua;
+    }
 
  /* main section2 */
 
@@ -228,11 +231,14 @@
  
  .telegram{
     padding: 12px 24px;
-    background: rgba(222, 46, 84, 1);
+    /* background: rgba(222, 46, 84, 1); */
     border: 1px solid red;
     border-radius: 8px;
     color: rgba(255, 255, 255, 1);
     text-transform: uppercase;
+ }
+ .footer-tugma a:hover{
+    color: aqua;
  }
  .footernav{
     background-color: rgba(34, 34, 34, 1);
