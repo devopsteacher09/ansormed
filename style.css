@@ -123,7 +123,7 @@
  .main-tugma-container{
     display: flex;
     justify-content: center;
-    padding: 100px;
+    /* padding: 100px; */
  }
 
  /* tugmalar */
@@ -193,8 +193,8 @@
      font-size: 36px;
      line-height: 43px;
      width: 140px;
-     margin-top: 100px;
-     margin-bottom: 100px;
+      /* margin-top: 100px; */
+     margin-bottom: 50px;
  }
  /* footer */
  .footer-qabul{
